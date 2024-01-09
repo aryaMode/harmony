@@ -28,14 +28,21 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  chat_gpt_sdk: ^2.2.5
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+  flutter_dynamic_icon: ^2.1.0
+  flutter_tflite: ^1.0.1
   font_awesome_flutter: ^10.6.0
+  loading_animation_widget: ^1.2.0+4
   rive: ^0.12.3
+  tflite_flutter: ^0.10.4
+  tflite_flutter_plus: ^0.0.1
+  tflite_text_classification: ^0.0.2
 
 dev_dependencies:
-  flutter_lints: ^2.0.0
+  #flutter_lints: ^3.0.1
   flutter_test:
     sdk: flutter
 
